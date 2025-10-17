@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import '../models/expense.dart';
-import '../screens/expenses_list_screen.dart';
-import '../screens/expense_form_screen.dart';
+import 'package:flutter5/features/expenses/models/expense.dart';
+import 'package:flutter5/features/expenses/screens/expense_form_screen.dart';
+import 'package:flutter5/features/expenses/screens/expenses_list_screen.dart';
 
 enum Screen { list, form }
 

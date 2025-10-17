@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import '../models/expense.dart';
-import '../widgets/expenses_list_view.dart';
+import 'package:flutter5/features/expenses/models/expense.dart';
+import 'package:flutter5/features/expenses/widgets/expenses_list_view.dart';
 
 class ExpensesListScreen extends StatelessWidget {
   final List<Expense> expenses;
